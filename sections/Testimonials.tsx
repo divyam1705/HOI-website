@@ -62,9 +62,9 @@ const CARDS = [
         stars: 5,
         content: (
             <p>
-                The <Highlight> atmosphere is great</Highlight> you can be casual or dressed up. The portions are fulfilling overall, we did ask for more rice, since they did serve it family style. The service was stellar, from everyone and they're very attentive.
+                The <Highlight> atmosphere is great</Highlight> you can be casual or dressed up. The service was stellar, from everyone and they're very attentive.
                 {" "}
-                I love Indian food and their mango lassi drink is probably <Highlight>the best I've tasted</Highlight>. It helps to cleanse your palate from the spices.
+                I love Indian food and their mango lassi drink is probably <Highlight>the best I've tasted</Highlight>.
 
                 The spice levels are 1-4, and we got 3 and it was perfect I could've went spicier!
 
@@ -101,14 +101,14 @@ const CARDS = [
                 <Highlight>
                     best Indian food
                 </Highlight>
-                I've had. I travel a lot for work and have tried Indian food all over the country. We had Chicken Vindaloo, the Chicken Tandoori Platter, Vegetable Samosas and garlic Naan.
+                I've had. I have tried Indian food all over the country. We had Chicken Vindaloo, the Chicken Tandoori Platter, Vegetable Samosas and garlic Naan.
                 All of it was amazing.
-                The vindaloo, as described on the menu, was very spicy, even at the medium level but it was
+                The vindaloo was
                 <Highlight>
                     delicious!
                 </Highlight>
                 The portions are <Highlight>
-                    generous and very affordable</Highlight>. We had great service and the restaurant itself is very nice. It was a great experience!
+                    generous and very affordable</Highlight>. It was a great experience!
             </p>
         ),
     },
