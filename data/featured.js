@@ -7,7 +7,7 @@ import food6 from "@/assets/featured/foodimg6.webp";
 
 export const dishes = [
   {
-    name: "Chicken Tikka Masala",
+    name: "Chicken Tikka",
     description:
       "Cubes of boneless chicken breast marinated in yogurt, herbs and spices, roasted in tandoor.",
     src: food1.src,
@@ -44,7 +44,8 @@ export const dishes = [
   },
   {
     name: "Mango Lassi",
-    description: "Mango flavored lassi",
+    description:
+      "A refreshing and creamy yogurt based drink blended with ripe mangoes.",
     src: food6.src,
     price: 3.1,
   },

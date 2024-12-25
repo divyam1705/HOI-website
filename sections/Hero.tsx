@@ -10,6 +10,7 @@ import { sampleArcs, globeConfig } from "@/data/globe-config";
 import Link from "next/link";
 import { Waterfall } from "next/font/google";
 import FoodSlider from "@/components/FoodSlider";
+import BlurIn from "@/components/ui/blur-in";
 
 const waterFall = Waterfall({
     subsets: ['latin'],
@@ -31,7 +32,11 @@ export const Hero = () => {
                 <div className="md:w-1/2 flex flex-col  justify-center items-center ">
                     <div className="b-10 md:-mt-16">
                         <h1 className={`${waterFall.className}    text-[#f4d5b2] text-center text-[6rem] md:text-[6rem] lg:text-[9rem] font-bold px-3  md:py-1 tracking-tighter bg-clip-text`}>
-                            House of India
+                            <BlurIn
+                                word="House of India"
+                                className={`${waterFall.className}    text-[#f4d5b2] text-center text-[6rem] md:text-[6rem] lg:text-[9rem] font-bold px-3  md:py-1 tracking-tighter bg-clip-text`}
+                            />
+                            {/* House of India */}
                             <h1 className={`${waterFall.className} -ml-[16rem]  text-[#f4d5b2]  text-3xl md:text-4xl  font-bold border-[#222]/10 px-3 py-1 tracking-tighter bg-clip-text -mt-8 md:-mt-10 lg:-mt-10`}>
                                 - since 1995
                             </h1>

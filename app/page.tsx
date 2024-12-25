@@ -11,11 +11,11 @@ export default function Home() {
   const { serviceRef } = useScrollContext();
 
   return (
-    <div className="bg-white">
+    <div className="bg-black">
       <Hero />
       {/* <LogoTicker /> */}
       <Services ref={serviceRef} />
-      {/* <Testimonials />  */}
+      <Testimonials />
     </div>
   );
 }

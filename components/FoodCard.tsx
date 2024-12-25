@@ -18,12 +18,14 @@ interface FoodCardProps {
 export const FoodCard: React.FC<FoodCardProps> = ({ food }) => {
     return (
         // <Link href={service.href}>
-        <Card className="border-[#2b1d0d] dark h-[23rem] flex flex-col justify-between cursor-pointer max-w-sm overflow-hidden shadow-2xl rounded-xl transform transition-transform hover:-translate-y-2">
-            <Image src={food.src} alt={food.name} className="w-full p-3 rounded-[20px]" layout="responsive" width={700} height={475} />
+        <Card className="border-[#362511] dark h-[19rem]  md:h-[20rem] flex flex-col justify-between cursor-pointer max-w-sm overflow-hidden shadow-2xl rounded-xl transform transition-transform hover:-translate-y-2">
+            <div className="relative w-full h-[30rem] md:h-[40rem]">
+                <Image src={food.src} alt={food.name} className="w-full  p-3 rounded-[20px] object-cover" layout="fill" />
+            </div>
             <CardContent className="h-full">
                 <div>
-                    <h2 className="font-bold text-2xl mb-2 text-[#f4d5b2]">{food.name}</h2>
-                    <p className="text-gray-500 text-sm ">{food.description}</p>
+                    <h2 className="leading-6 font-bold text-xl md:text-2xl mb-2 text-[#f4d5b2]">{food.name}</h2>
+                    <p className="leading-4 text-gray-500 text-xs md:text-sm ">{food.description}</p>
                 </div>
             </CardContent>
             {/* <CardFooter className="w-full ">
