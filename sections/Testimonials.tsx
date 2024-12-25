@@ -13,7 +13,7 @@ export const Testimonials = () => {
                 <h2 className="section-title mt-5">
                     Your Stories, Our Pride
                 </h2>
-                <p className="section-description mt-5">
+                <p className="section-description mt-5 px-3">
                     Your experiences inspire us to keep serving excellence.
                 </p>
             </div>

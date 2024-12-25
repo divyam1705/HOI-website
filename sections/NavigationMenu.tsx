@@ -125,7 +125,7 @@ export function NavigationMenuHelper({ className, setIsOpen }: NavigationMenuPro
                     </Link>
                 </NavigationMenuItem>
 
-                <Link onMouseEnter={() => setActive("contact")} href="/contact" legacyBehavior passHref>
+                <Link onMouseEnter={() => setActive("contact")} href="/" legacyBehavior passHref>
                     <NavigationMenuLink onClick={() => setIsOpen(false)} className={navigationMenuTriggerStyle()}>
                         Catering
                     </NavigationMenuLink>
