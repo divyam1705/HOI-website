@@ -28,7 +28,6 @@ export const CardStack = ({
 
     useEffect(() => {
         startFlipping();
-
         return () => clearInterval(interval);
     }, []);
     const startFlipping = () => {
@@ -42,12 +41,12 @@ export const CardStack = ({
     };
 
     return (
-        <div className=" relative  h-80 w-[22rem] md:h-[25rem] md:w-[35rem]">
+        <div className="shadow-yellow-500/[0.3] shadow-xl rounded-3xl relative  h-80 w-[22rem] md:h-[25rem] md:w-[35rem]">
             {cards.map((card, index) => {
                 return (
                     <motion.div
                         key={card.id}
-                        className="!border-[#362511] md:text-lg absolute dark:bg-black  h-80 w-[22rem] md:h-[25rem] md:w-[35rem] rounded-3xl p-4 shadow-xl border  dark:border-white/[0.1]  shadow-yellow-500/[0.1]  flex flex-col justify-between"
+                        className="!border-[#362511] md:text-lg absolute dark:bg-black  h-80 w-[22rem] md:h-[25rem] md:w-[35rem] rounded-3xl p-4 shadow-xl border  dark:border-white/[0.1]   flex flex-col justify-between"
                         style={{
                             transformOrigin: "top center",
                         }}

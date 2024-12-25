@@ -130,20 +130,17 @@ const CARDS = [
         ),
     },
     {
-        id: 2,
-        name: "Grace R.",
-        designation: "Houston, TX",
-        date: "Jun 1, 2024",
-        stars: 4,
+        id: 5,
+        name: "Bob S.",
+        designation: "Saint Louis, MO",
+        date: "Jan 1, 2022",
+        stars: 5,
         content: (
             <p>
-                Very reasonable prices and generous portions. They really pay<Highlight> attention to detail</Highlight> with their takeout orders. Great friendly service!
-
-                If you're looking for a good local Indian food spot I'd recommend this place.
-
-                Very<Highlight>clean and well kept interior </Highlight>as well!
-
-                I personally have enjoyed the chicken tikki masala, garlic naan, mango lassi, basmati rice, and paneer pakora!
+                <Highlight> Great service. Terrific food.</Highlight> Ambiance is simple.
+                I've cream and rice pudding desserts were outstanding as well.
+                <br />
+                <Highlight>Highly recommended.</Highlight>
             </p>
         ),
     }
