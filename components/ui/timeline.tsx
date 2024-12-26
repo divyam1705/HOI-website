@@ -45,7 +45,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 <h2 className="section-title ">
                     Our Achievements
                 </h2>
-                <p className="section-description mt-3">
+                <p className="section-description mt-3 md:px-[10rem]">
                     House of India has been recognized time and time again for its exceptional flavors and unparalleled dining experience. Here are the awards we've proudly earned over the years.
                 </p>
             </div>
