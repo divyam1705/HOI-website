@@ -66,7 +66,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                                     alt="startup template"
                                     width={2000}
                                     height={2000}
-                                    className="rounded-lg object-cover h-18 w-24 md:h-40 md:w-52  border-yellow-900/[0.7] border shadow-yellow-500/[0.3] shadow-lg"
+                                    className="rounded-lg object-cover h-18 w-24 md:h-40 md:w-52  border-yellow-900/[0.7] border shadow-yellow-500/[0.3] shadow-md"
                                 />
                             </div>
                         </div>

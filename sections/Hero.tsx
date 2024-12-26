@@ -42,7 +42,7 @@ export const Hero = () => {
                             </h1>
                         </h1>
 
-                        <h2 className="mt-5 px-8 text-justify md:px-16 lg:px-24 text-gray-500 font-semibold tracking-wider ">
+                        <h2 className="mt-5 px-8 text-justify md:px-16 lg:px-24 text-gray-500 md:font-semibold md:tracking-wider ">
                             House of India has proudly served St. Louis since 1995, earning a legacy of excellence with over <span className="text-[#f4d5b2]">25 prestigious awards</span>, including multiple wins from <em className="text-gray-400">Saint Louis Magazine, Sauce Magazine, and Riverfront Times</em>. Renowned for offering some of the best Indian cuisine in the U.S., we are honored to have built a loyal community of patrons who have shared milestones and memories with us over the decades. Conveniently located in University City, we invite you to experience the vibrant flavors and warm hospitality that have made us a cherished destination for nearly 30 years.
                         </h2>
                     </div>
