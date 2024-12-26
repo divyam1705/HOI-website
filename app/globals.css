@@ -18,7 +18,9 @@ body {
   .section-title {
     @apply text-center text-4xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-[#ede8e3] to-[#7b6717] text-transparent bg-clip-text;
   }
-
+  .award-title {
+    @apply text-center text-3xl md:!text-4xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-[#ede8e3] pb-2 to-[#cdb864] text-transparent bg-clip-text;
+  }
   .section-description {
     @apply text-center text-base md:text-[18px]  leading-[30px] text-gray-500 font-semibold tracking-tight;
   }

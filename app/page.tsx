@@ -6,6 +6,7 @@ import { Testimonials } from '@/sections/Testimonials';
 import { useRef } from 'react';
 import { useScrollContext } from './ScrollContext';
 import FoodSlider from '@/components/FoodSlider';
+import { TimelineSection } from '@/sections/Timeline';
 
 export default function Home() {
   const { serviceRef } = useScrollContext();
@@ -13,9 +14,9 @@ export default function Home() {
   return (
     <div className="bg-black">
       <Hero />
-      {/* <LogoTicker /> */}
       <Services ref={serviceRef} />
       <Testimonials />
+      <TimelineSection />
     </div>
   );
 }

@@ -31,6 +31,7 @@ const buttonVariants = cva(
         lg: "h-10 rounded-md px-6",
         icon: "h-9 w-9",
         resp: "h-9 text-xs md:text-sm md:h-10 rounded-md px-3 md:px-6",
+        respLabel: "md:rounded-sm h-8 text-xs md:text-sm md:h-9 rounded-sm px-3 md:px-5 font-semibold",
       },
     },
     defaultVariants: {

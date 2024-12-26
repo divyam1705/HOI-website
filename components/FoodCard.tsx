@@ -18,7 +18,7 @@ interface FoodCardProps {
 export const FoodCard: React.FC<FoodCardProps> = ({ food }) => {
     return (
         // <Link href={service.href}>
-        <Card className="border-[#362511] dark h-[19rem]  md:h-[20rem] flex flex-col justify-between cursor-pointer max-w-sm overflow-hidden shadow-2xl rounded-xl transform transition-transform hover:-translate-y-2">
+        <Card className=" dark h-[19rem]  md:h-[20rem] flex flex-col justify-between cursor-pointer max-w-sm overflow-hidden shadow-2xl rounded-xl transform transition-transform hover:-translate-y-2">
             <div className="relative w-full h-[30rem] md:h-[40rem]">
                 <Image src={food.src} alt={food.name} className="w-full  p-3 rounded-[20px] object-cover" layout="fill" />
             </div>
